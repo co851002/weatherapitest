@@ -21,7 +21,7 @@ function ajaxLookup() {
 
     // store responseJSON object for later queries
     var location = findLocation.responseJSON;
-    console.log('IP API Response');
+    console.log('IP API Response below');
     console.table(location);
 
 
@@ -37,7 +37,7 @@ function ajaxLookup() {
 
       // store responseJSON object
       var weather = findWeather.responseJSON;
-      console.log('Weather API Response');
+      console.log('Weather API Response below');
       console.table(weather);
       var temperatureSymbol = (temperatureScale === "metric") ? "&deg;C" : "&deg;F";
       var icon = (weather.weather[0].icon[2] === "d") ? "day" : "night";
