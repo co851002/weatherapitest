@@ -1,0 +1,52 @@
+
+html {
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  color: #FFF;
+}
+
+body {
+  margin: 0;
+  background: -webkit-linear-gradient(#60A0E6, #3068AD);
+  background: -moz-linear-gradient(#60A0E6, #3068AD);
+  background: -o-linear-gradient(#60A0E6, #3068AD);
+  background: linear-gradient(#60A0E6, #3068AD);
+  height: 100vh;
+}
+
+#wrapper {
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #3068AD;
+  padding: 8px;
+  color: #FFF;
+  box-shadow: 3px 3px 3px #10488D;
+}
+
+button:active {
+  position: relative;
+  top: 2px;
+  left: 1px;
+  box-shadow: 2px 2px 1px #10488D;
+}
+
+p {
+  font-size: inherit;
+}
+
+i {
+  font-size: 4em;
+}
